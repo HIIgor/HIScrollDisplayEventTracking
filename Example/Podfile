@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'HIScrollDisplayEventTracking_Example' do
   pod 'HIScrollDisplayEventTracking', :path => '../'
+  pod 'Masonry'
 
   target 'HIScrollDisplayEventTracking_Tests' do
     inherit! :search_paths
