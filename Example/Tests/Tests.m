@@ -2,8 +2,8 @@
 //  HIScrollDisplayEventTrackingTests.m
 //  HIScrollDisplayEventTrackingTests
 //
-//  Created by xiangyaguo on 06/18/2018.
-//  Copyright (c) 2018 xiangyaguo. All rights reserved.
+//  Created by HiIgor on 06/18/2018.
+//  Copyright (c) 2018 HiIgor. All rights reserved.
 //
 
 @import XCTest;
