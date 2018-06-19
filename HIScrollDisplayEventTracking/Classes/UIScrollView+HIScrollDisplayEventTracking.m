@@ -104,7 +104,7 @@ static void Hook_Method(Class originalClass, SEL originalSel, Class replacedClas
     [self methodSwizzleOfDelegate:delegate];
 }
 
-- (void)methodSwizzleOfDelegate:delegate {
+- (void)methodSwizzleOfDelegate:(id<UIScrollViewDelegate>)delegate {
     Hook_Method([delegate class], @selector(scrollViewDidEndDecelerating:), [self class], @selector(__HI_scrollViewDidEndDecelerating:), @selector(__HI_add_scrollViewDidEndDecelerating:));
 
     Hook_Method([delegate class], @selector(scrollViewDidEndDragging:willDecelerate:), [self class], @selector(__HI_scrollViewDidEndDragging:willDecelerate:), @selector(__HI_add_scrollViewDidEndDragging:willDecelerate:));
