@@ -22,7 +22,7 @@ pod 'HIScrollDisplayEventTracking'
 
 ## Author
 
-HiIgor, xiangyaguo@163.com
+HiIgor
 
 ## License
 
